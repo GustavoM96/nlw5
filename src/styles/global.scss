@@ -73,3 +73,11 @@ h2 {
 button {
   cursor: pointer;
 }
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 900ms !important;
+  transition-delay: 0 !important;
+}
