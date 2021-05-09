@@ -59,7 +59,6 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <span>{episode.publishedAt} </span>
                   <span>{episode.durationAsString}</span>
                 </div>
-                <input type="text" />
 
                 <button
                   type="button"
